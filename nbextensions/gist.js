@@ -91,7 +91,7 @@ define( function () {
             type : method,
             headers : { Authorization: "token " + token },
             data : JSON.stringify({
-                public : true,
+                public : false,
                 files : filedata,
             }),
             success : function (data, status) {
