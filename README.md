@@ -14,7 +14,7 @@ or you can link the extension directories into your IPython directories (what I 
     ln -s $(pwd)/nbextensions $(ipython locate)/nbextensions
 
 ## Gist
-
+This fork created private gists.
 Add a gist button to the notebook toolbar:
 
     $ jupyter nbextension install https://rawgithub.com/minrk/ipython_extensions/master/nbextensions/gist.js
